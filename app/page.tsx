@@ -44,7 +44,7 @@ export default function Home() {
             className="object-cover"
           />
           <p className="font-bold mt-2 text-lg md:text-xl">M2SERIA</p>
-          <p className="text-md md:text-lg">$ 22.222 </p>
+          <p className="text-md md:text-lg">$ 25.000 </p>
           <p className="text-xs text-center">
             libro de 15x15cm <br></br>
             3OO páginas de am0r <br></br>
