@@ -3,15 +3,15 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 const einaBold = localFont({
-  src: "./fonts/Eina04-Bold.ttf",
+  src: "./fonts/Eina-01-Semi-Bold.otf",
   variable: "--font-einaBold",
   weight: "500 800",
 });
 
-const einaRegular = localFont({
-  src: "./fonts/Eina03-Regular.ttf",
-  variable: "--font-einaRegular",
-  weight: "500",
+const einaSemiBold = localFont({
+  src: "./fonts/Eina-01-Semi-Bold.otf",
+  variable: "--font-einaSemiBold",
+  weight: "600",
 });
 
 
@@ -28,8 +28,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${einaBold.variable} ${einaRegular.variable} antialiased`}
-        style={{ fontFamily: 'var(--font-einaRegular)' }}
+        className={`${einaBold.variable} ${einaSemiBold.variable} antialiased`}
+style={{ fontFamily: 'var(--font-einaSemiBold)' }}
       >
         {children}
       </body>
